@@ -1,0 +1,33 @@
+/* Product.css */
+
+.preview-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-list .product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-list .product-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.product-list .product-item .product-name {
+  margin-right: 10px;
+}
+
+.product-list .product-item .product-price {
+  margin-right: 10px;
+}
+
+.product-list .product-item input.image-url-input {
+  margin-right: 10px;
+}
